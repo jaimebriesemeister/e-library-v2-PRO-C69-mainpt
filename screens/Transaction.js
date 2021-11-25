@@ -55,7 +55,7 @@ export default class TransactionScreen extends Component {
           style={[styles.button, { marginTop: 25 }]}
           onPress={() => this.getCameraPermissions("scanner")}
         >
-          <Text style={styles.buttonText}>Escanear QR Code</Text>
+          <Text style={styles.buttonText}>Digitalizar QR Code</Text>
         </TouchableOpacity>
       </View>
     );
